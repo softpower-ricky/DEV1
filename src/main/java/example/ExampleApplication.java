@@ -1,4 +1,4 @@
-package fma;
+package example;
 
 
 
@@ -9,15 +9,15 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 
 @SpringBootApplication
-public class FmaApplication  extends SpringBootServletInitializer{
+public class ExampleApplication  extends SpringBootServletInitializer{
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(FmaApplication.class);
+        return application.sources(ExampleApplication.class);
     }
     
 	public static void main(String[] args) {
-		SpringApplication.run(FmaApplication.class, args);
+		SpringApplication.run(ExampleApplication.class, args);
 	}
 
 	

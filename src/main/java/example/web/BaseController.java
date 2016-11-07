@@ -1,4 +1,4 @@
-package fma.web;
+package example.web;
 
 
 
